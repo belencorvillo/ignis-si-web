@@ -1,0 +1,942 @@
+[
+  {
+    "psi_id": "PSI-10",
+    "title": "Advanced Combustion via Microgravity Experiments / Flame Design",
+    "doi_citation": "Richard Axelbaum, Peter Sunderland, David Urban. Advanced Combustion via Microgravity Experiments / Flame Design (PSI-10). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/w4zy-bt45",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-10",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-ACME",
+    "fuel_phase": "Gaseous",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Radiometers",
+      "Thermocouples",
+      "High-Speed Optical Cameras",
+      "Photomultiplier Tubes (PMT)"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The primary objectives of this flight experiment are: A. Obtain soot-inception limits of quasi-steady normal and inverse spherical diffusion flames as functions of flow rate, Zst, amount of inert (N2 or CO2), and pressure for C2H4 and CH4 flames. Identify the corresponding temperatures in hot regions. Obtain similar limits and temperature...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-20",
+    "title": "Advanced Combustion via Microgravity Experiments - Burning Rate Emulator",
+    "doi_citation": "John L de Ris, Peter Sunderland, James Quintiere. Advanced Combustion via Microgravity Experiments - Burning Rate Emulator (PSI-20). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/vb93-3y72",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-ACME",
+    "fuel_phase": "Solid",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 10.2,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "3D CFD Simulation Solver"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (10.2-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The BRE flight program seeks to establish the burning conditions in a quiescent microgravity ambient in terms of material properties. The specific flight objectives are as follows. 1. Observe burning behavior in long-duration microgravity for CH4/N2 and C2H4/N2mixtures on porous circular burners of 25 and 50 mm diameter. Consider O2/N2 am...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-21",
+    "title": "Advanced Combustion via Microgravity Experiments / Coflow Laminar Diffusion Flame",
+    "doi_citation": "Mitchell Smooke, Dennis Stocker, Marshall Long. Advanced Combustion via Microgravity Experiments / Coflow Laminar Diffusion Flame (PSI-21). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/23e1-9950",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-ACME",
+    "fuel_phase": "Gaseous",
+    "fuels_tested": [
+      "Methane (CH4)",
+      "Ethylene (C2H4)"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Laser Diagnostics"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "In order to provide the experimental data needed to allow rigorous testing of computational models at the extremes of the fuel dilution spectrum, we have the following objectives: A) Characterize the behavior of weak coflow diffusion flames of methane and ethylene, as a function of velocity and fuel dilution, through measurement of flame ...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-22",
+    "title": "Advanced Combustion via Microgravity Experiments Electric-Field Effects on Laminar Diffusion Flames",
+    "doi_citation": "Alice Chien, Derek Dunn-Rankin, Dennis Stocker. Advanced Combustion via Microgravity Experiments Electric-Field Effects on Laminar Diffusion Flames (PSI-22). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/se5a-8c73",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-ACME",
+    "fuel_phase": "Gaseous",
+    "fuels_tested": [
+      "Methane (CH4)",
+      "Ethylene (C2H4)"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "partial_g_proxy"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (partial_g_proxy)",
+    "key_findings_summary": "The objective of this investigation is to better understand the relationship between electric field voltage and chemi-ion current, analyze the dynamic response of flames to electric field changes, evaluate soot formation, and characterize stabilized near-limit lifted flames.",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-23",
+    "title": "Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames",
+    "doi_citation": "Dennis Stocker, Chung Law, Stephen Tse. Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames (PSI-23). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/k57n-p030",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection"
+    ],
+    "hardware_rack": "CIR-ACME",
+    "fuel_phase": "Gaseous",
+    "fuels_tested": [
+      "Methane (CH4)",
+      "Ethylene (C2H4)"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Optical Imaging",
+      "Temperature & Radiative Sensors"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "A series of experiments is proposed with the following specific objectives, in both soot-free and sooty flames, to compare with detailed computational simulation to assess transport properties and detailed chemical kinetics (including chemiluminescence): Objective A. Measure and characterize the transient structure (such as temperature an...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-25",
+    "title": "Burning and Suppression of Solids - II",
+    "doi_citation": "Paul Ferkul, Carlos Fernandez-Pello, Fletcher J. Miller. Burning and Suppression of Solids - II (PSI-25). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/4qc4-de67",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Suppression"
+    ],
+    "hardware_rack": "MSG-SPICE",
+    "fuel_phase": "Solid",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 15.0,
+      "o2_max_pct": 35.0,
+      "pressure_min_psi": 10.2,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Optical Imaging",
+      "Temperature & Radiative Sensors"
+    ],
+    "variables_compared": "O2 (15.0-35.0%), Pressure (10.2-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "BASS-II results contribute to the combustion computational models used in the design of fire detection and suppression systems in microgravity and on Earth. Objectives Include: 1) Study the ignition, flame growth, flame spread, and extinction limits for solid fuels burning in low-velocity forced flows in microgravity. 2) Begin to bridge t...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-26",
+    "title": "Burning and Suppression of Solids",
+    "doi_citation": "Sandra L. Olson, Paul Ferkul, Funiaki Takahashi. Burning and Suppression of Solids (PSI-26). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/58h4-dy80",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "MSG-SPICE",
+    "fuel_phase": "Solid",
+    "fuels_tested": [
+      "Cotton-Fiberglass Blend",
+      "Nomex"
+    ],
+    "envelope": {
+      "o2_min_pct": 15.0,
+      "o2_max_pct": 35.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Optical Imaging",
+      "Temperature & Radiative Sensors"
+    ],
+    "variables_compared": "O2 (15.0-35.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The two main objectives for BASS are to: 1.) Begin to bridge the gap between the normal gravity NASA-STD-6001 Test#1 method, ground-based microgravity tests, and actual material flammability in microgravity. The relation between these can be investigated by observing flames burning for the longer times available in flight. Practical, real...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-39",
+    "title": "Cool Flames Investigation",
+    "doi_citation": "Frederick Dryer, Daniel Dietrich, Tanvir Farouk. Cool Flames Investigation (PSI-39). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/m6pj-a914",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-MDCA",
+    "fuel_phase": "Liquid_Droplet",
+    "fuels_tested": [
+      "n-Dodecane"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 10.2,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Radiometers",
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (10.2-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The objectives of this investigation are to: 1) Examine the combustion behavior of n-dodecane and mixtures of n-dodecane/iso-dodecane at pressures ranging from 0.25 atm to 5 atm. 2) Analyze the effects of helium dilution on cool flame behavior. 3) Examine the behavior of combustion characteristics. 4) Investigate the relationship between ...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-47",
+    "title": "Dust and Aerosol Measurement Feasibility Test / Dust and Aerosol Measurement Feasibility Test-2",
+    "doi_citation": "David Urban, Claire Fortenberry. Dust and Aerosol Measurement Feasibility Test / Dust and Aerosol Measurement Feasibility Test-2 (PSI-47). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/ztgj-d202",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection"
+    ],
+    "hardware_rack": "Other",
+    "fuel_phase": "Multi-phase",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Aerosol & Smoke Particle Counters"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The focus of DAFT / DAFT-2 was to mitigate the risk for the Smoke Aerosol Measurement Experiment (SAME). SAME relied on a commercially available condensate nuclei counter, the TSI P-Trak, to quantify smoke aerosols in a microgravity environment, however there were concerns that th P-Trak would not be reliable in microgravity as it relies ...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-60",
+    "title": "Computational and Experimental Analysis of SPICE Data Sets",
+    "doi_citation": "Marshall Long, Mitchell Smooke, Daniel Dietrich. Computational and Experimental Analysis of SPICE Data Sets (PSI-60). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/mzjm-yv57",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+    "project_type": "Ground Investigation",
+    "safety_pillars": [
+      "Detection"
+    ],
+    "hardware_rack": "Ground-CFD",
+    "fuel_phase": "Multi-phase",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "1g_ground_reference"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Optical Imaging",
+      "Temperature & Radiative Sensors"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (1g_ground_reference)",
+    "key_findings_summary": "This ground investigation sought to increase understanding of the issues that control the large discrepancy between soot formation in 1g and in 0g flames. The objective of this investigation was to integrate computational and experimental methods to derive temperature distributions and soot volume fractions from the Smoke Point in Coflow ...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [
+      "PSI-107"
+    ],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-62",
+    "title": "Concurrent Flame Spread Modeling using Flamelet Generated Manifolds in Microgravity with Comparison to BASS Experiments using Two-Color Tomography",
+    "doi_citation": "Paul DesJardin, David Urban. Concurrent Flame Spread Modeling using Flamelet Generated Manifolds in Microgravity with Comparison to BASS Experiments using Two-Color Tomography (PSI-62). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/e9xp-ex83",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-62",
+    "project_type": "Ground Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "Ground-CFD",
+    "fuel_phase": "Solid",
+    "fuels_tested": [
+      "PMMA (Acrylic)"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "1g_ground_reference"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (1g_ground_reference)",
+    "key_findings_summary": "The objective of this research was to develop and validate new flamelet generated manifold (FGM) modeling techniques for concurrent flame spread in microgravity. Concurrent flame spread presented one of the greatest modeling challenges in combustion science due to the intricate coupling between heat transfer, mass transport, and chemical ...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [
+      "PSI-25",
+      "PSI-26"
+    ],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-68",
+    "title": "Flame Extinguishment Experiment - 2",
+    "doi_citation": "Frederick Dryer, Benjamin D. Shaw, Mun Choi. Flame Extinguishment Experiment - 2 (PSI-68). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/byp8-h018",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-68",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-MDCA",
+    "fuel_phase": "Gaseous",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 10.2,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (10.2-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The primary goal of the FLEX-2 flight experiments is to extend the results of FLEX-1 to fuels and environmental conditions that mimic real combustor conditions, as well as, provide benchmark experimental data on bi-component droplet combustion over a wide range of initial conditions in order to validate numerical simulations and to develo...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-69",
+    "title": "Flame Extinguishment Experiment",
+    "doi_citation": "Benjamin Shaw, Michael Hicks, Forman Williams. Flame Extinguishment Experiment (PSI-69). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/mbq8-0451",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-MDCA",
+    "fuel_phase": "Liquid_Droplet",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 10.2,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Optical Imaging",
+      "Temperature & Radiative Sensors"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (10.2-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The FLEX (Flame Extinguishment Experiment) investigation aims to map the flammability limits of liquid fuels in microgravity environments, measure the effectiveness of various gaseous fire suppressants such as CO2, He, and SF6, and develop reliable predictive models for combustion limits under reduced gravity conditions. The mission seeks...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-98",
+    "title": "Spacecraft Fire Safety Experiment-I",
+    "doi_citation": "David Urban. Spacecraft Fire Safety Experiment-I (PSI-98). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/0t15-1z43",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention"
+    ],
+    "hardware_rack": "Saffire",
+    "fuel_phase": "Solid",
+    "fuels_tested": [
+      "Cotton-Fiberglass Blend"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Radiometers",
+      "Thermocouples",
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The objectives of this investigation were to: (1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test.",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-99",
+    "title": "Spacecraft Fire Experiment-II",
+    "doi_citation": "David Urban, Gary Ruff. Spacecraft Fire Experiment-II (PSI-99). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/2chp-m469",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention"
+    ],
+    "hardware_rack": "Saffire",
+    "fuel_phase": "Solid",
+    "fuels_tested": [
+      "PMMA (Acrylic)",
+      "Nomex"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Radiometers",
+      "Thermocouples",
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The objectives of SAFFIRE-II are to determine how rapidly a large scale fire grows in low-gravity and to investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test.",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-100",
+    "title": "Spacecraft Fire Experiment-III",
+    "doi_citation": "David Urban. Spacecraft Fire Experiment-III (PSI-100). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/040q-4h36",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Prevention"
+    ],
+    "hardware_rack": "Saffire",
+    "fuel_phase": "Solid",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Radiometers",
+      "Thermocouples",
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The objectives of this investigation were to: (1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test.",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-101",
+    "title": "Smoke Aerosol Measurement Experiment-Reflight",
+    "doi_citation": "Zeng-guang Yuan, Claire Fortenberry, David Urban. Smoke Aerosol Measurement Experiment-Reflight (PSI-101). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/2np7-jv14",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection"
+    ],
+    "hardware_rack": "Other",
+    "fuel_phase": "Liquid_Droplet",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Aerosol & Smoke Particle Counters"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "Similar to the original SAME investigation, the primary objective of the SAME-R investigation was to quantify the sizes that the liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to the smoke generation and smoke transport conditions in the experiment. One of the problems encountered during the S...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-102",
+    "title": "Smoke and Aerosol Measurement Experiment",
+    "doi_citation": "David Urban, George Mulholland, Claire Fortenberry. Smoke and Aerosol Measurement Experiment (PSI-102). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/gd4k-8h62",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection"
+    ],
+    "hardware_rack": "Other",
+    "fuel_phase": "Liquid_Droplet",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "High-Speed Optical Cameras",
+      "Aerosol & Smoke Particle Counters"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "One of the major goals of this investigation was to quantify the sizes that the liquid smoke particulate achieves in low gravity and to relate the droplet size distribution to the smoke generation and smoke transport conditions in the experiment. A numerical code was to be developed to predict the smoke droplet growth as a function of the...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-106",
+    "title": "Structure and Liftoff In Combustion Experiment",
+    "doi_citation": "Mitchell Smooke, Fumiaki Takahashi, Marshall Long. Structure and Liftoff In Combustion Experiment (PSI-106). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/pm12-rg61",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-106",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection",
+      "Suppression"
+    ],
+    "hardware_rack": "MSG-SPICE",
+    "fuel_phase": "Gaseous",
+    "fuels_tested": [
+      "Methane (CH4)",
+      "Ethylene (C2H4)"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "Objective: The objective of this investigation is to better understand the structure and stability of laminar diffusion flames in microgravity. Specific objectives of this investigation were: 1. To investigate the structure of laminar diffusion flames in microgravity to understand the stabilizing mechanisms at the flames base. 2. Determin...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-107",
+    "title": "Smoke Point In Co-flow Experiment",
+    "doi_citation": "Peter Sunderland, David Urban. Smoke Point In Co-flow Experiment (PSI-107). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/9kbh-e962",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Detection"
+    ],
+    "hardware_rack": "MSG-SPICE",
+    "fuel_phase": "Multi-phase",
+    "fuels_tested": [
+      "Methane (CH4)",
+      "Ethylene (C2H4)",
+      "Propane (C3H8)"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 30.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "High-Speed Optical Cameras"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-30.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "The objective of SPICE is to better understand the complex process of combustion by observing flames in a microgravity environment aboard the International Space Station (ISS) and analogous ground experiments. Specific objectives were: (1) Identify the laminar smoke-point properties of non-buoyant jet diffusion flames under various co-flo...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-115",
+    "title": "Utilization of the Smoke Aerosol Measurement Experiment Data for Advanced Modeling and Simulation of Smoke Generation in Micro-Gravity",
+    "doi_citation": "Sean Garrick, Michael Hicks. Utilization of the Smoke Aerosol Measurement Experiment Data for Advanced Modeling and Simulation of Smoke Generation in Micro-Gravity (PSI-115). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/q0v5-1v28",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+    "project_type": "Ground Investigation",
+    "safety_pillars": [
+      "Detection"
+    ],
+    "hardware_rack": "Ground-CFD",
+    "fuel_phase": "Multi-phase",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "1g_ground_reference"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Aerosol & Smoke Particle Counters"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (1g_ground_reference)",
+    "key_findings_summary": "The objective of this investigation was to use numerical simulation to explore the influence of gravity on pyrolysis smoke growth from a fundamental perspective. The intention of this effort is to quantify the differences between microgravity and Earth gravity smoke, and to identify the fluid dynamic mechanisms that cause the differences.",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Next-generation photoelectric smoke and aerosol detectors"
+    ],
+    "related_psi_ids": [
+      "PSI-101",
+      "PSI-102"
+    ],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-117",
+    "title": "Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis",
+    "doi_citation": "Tanvir Farouk, Mike Hicks. Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics: A Multidimensional Multi-Physics CFD Analysis (PSI-117). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/gz0q-b577",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117",
+    "project_type": "Ground Investigation",
+    "safety_pillars": [
+      "Suppression"
+    ],
+    "hardware_rack": "Ground-CFD",
+    "fuel_phase": "Liquid_Droplet",
+    "fuels_tested": [
+      "Hydrocarbon / Spacecraft Materials"
+    ],
+    "envelope": {
+      "o2_min_pct": 21.0,
+      "o2_max_pct": 30.0,
+      "pressure_min_psi": 14.7,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "1g_ground_reference"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "3D CFD Simulation Solver"
+    ],
+    "variables_compared": "O2 (21.0-30.0%), Pressure (14.7-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (1g_ground_reference)",
+    "key_findings_summary": "The objective of this ground investigation was to use flight data obtained from PSI through NASA’s Flame Extinguishment Experiment (FLEX) to quantify how externally imposed thermal and convective perturbations regulated the dynamics and ultimate fate of already established droplet cool flames, and to explain run-to-run variability by isol...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents"
+    ],
+    "related_psi_ids": [
+      "PSI-69",
+      "PSI-142"
+    ],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-142",
+    "title": "Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames",
+    "doi_citation": "Yiguang Ju, Daniel Dietrich, Christopher Reuter. Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames (PSI-142). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/80qf-vj95",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+    "project_type": "Ground Investigation",
+    "safety_pillars": [
+      "Prevention",
+      "Suppression"
+    ],
+    "hardware_rack": "Ground-CFD",
+    "fuel_phase": "Liquid_Droplet",
+    "fuels_tested": [
+      "n-Heptane"
+    ],
+    "envelope": {
+      "o2_min_pct": 18.0,
+      "o2_max_pct": 40.0,
+      "pressure_min_psi": 10.2,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "1g_ground_reference"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Optical Imaging",
+      "Temperature & Radiative Sensors"
+    ],
+    "variables_compared": "O2 (18.0-40.0%), Pressure (10.2-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (1g_ground_reference)",
+    "key_findings_summary": "By using the Flame Extinguishment (FLEX) experimental data from the Physical Sciences Informatics (PSI) system of combustion science, the purpose of this grant was to conduct new simulations and ground-based experiments using ozone-sensitized counterflow flames to: 1) Develop a new diagram of the flammability limits of diffusional cool fl...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents",
+      "Fire-resistant protective clothing and low-emission combustor design"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  },
+  {
+    "psi_id": "PSI-159",
+    "title": "Advanced Combustion via Microgravity Experiments / Cool Flames Investigation with Gases",
+    "doi_citation": "Dennis Stocker, Peter Sunderland, Richard Axelbaum. Advanced Combustion via Microgravity Experiments / Cool Flames Investigation with Gases (PSI-159). NASA Physical Sciences Informatics (PSI). https://doi.org/10.60555/cyt1-kh64",
+    "psi_url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+    "project_type": "Microgravity Investigation",
+    "safety_pillars": [
+      "Suppression"
+    ],
+    "hardware_rack": "CIR-ACME",
+    "fuel_phase": "Gaseous",
+    "fuels_tested": [
+      "Propane (C3H8)",
+      "n-Butane (C4H10)",
+      "n-Pentane (C5H12)"
+    ],
+    "envelope": {
+      "o2_min_pct": 12.0,
+      "o2_max_pct": 85.0,
+      "pressure_min_psi": 10.2,
+      "pressure_max_psi": 14.7,
+      "airflow_min_cms": 0.0,
+      "airflow_max_cms": 5.0,
+      "gravity_regime": "0g_microgravity"
+    },
+    "lunar_habitat_relevant": true,
+    "sensors_used": [
+      "Radiometers",
+      "Thermocouples",
+      "High-Speed Optical Cameras",
+      "Photomultiplier Tubes (PMT)",
+      "3D CFD Simulation Solver"
+    ],
+    "variables_compared": "O2 (12.0-85.0%), Pressure (10.2-14.7 psi), Airflow (0.0-5.0 cm/s), Gravity (0g_microgravity)",
+    "key_findings_summary": "1. Plan and support flight testing on the International Space Station (ISS). 2. Determine the conditions for which cool diffusion flames occur for propane, n-butane, and n-pentane; normal and inverse flames; and a broad range of Zst, Tad, and fluent flow rate. 3. Support the flight tests with advanced CFD simulations. 4. Identify or devel...",
+    "earth_spinoff_applications": [
+      "Spacecraft & lunar habitat fire safety protocols",
+      "Fine-water-mist fire extinguishers and clean suppression agents"
+    ],
+    "related_psi_ids": [],
+    "video_filename": null
+  }
+]
